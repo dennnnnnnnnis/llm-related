@@ -1,3 +1,5 @@
 .streamlit/
 .venv/
 chroma/
+data/
+huggingface-models/
