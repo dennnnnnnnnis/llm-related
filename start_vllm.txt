@@ -1,0 +1,1 @@
+python -m vllm.entrypoints.openai.api_server --model "/Users/wangzeyu/Desktop/Github projects/legalai-chatbot/huggingface-models/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775"
