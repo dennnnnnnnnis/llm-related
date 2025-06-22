@@ -13,7 +13,4 @@ As I was part of the legalai research team, I was involved in the second half se
 
 ## Further Studies and RAG Optimizations
 
-- `rag-optimizations/rag_recall.ipynb`: multi-retrieval (BM25 + vector embedding) techniques + Reciprocal Rank Fusion (RRF) for re-ranking
-- `rag-optimizations/rag_video.ipynb`: RAG with videos as input
-- `rag-optimizations/query_optimization.ipynb`: RAG with pre-retrieval related optimization techniques such as query rewrite, query expansion and query decompositions
-- `rag-optimizations/contextual_compression.ipynb`: RAG with various techniques in contextual compression (retriever retrieves the documents, then compressor filter/reduce the documents): LLMChainExtractor, ChainFilter, Listwise Rerank, embedding filter and combining methods
+Please refer to `rag-optimizations` folder for more
