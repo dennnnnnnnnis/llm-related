@@ -8,7 +8,8 @@ This is for noting down anything related to RAG. Also act as a readme for optimi
 - `rag_video.ipynb`: RAG with videos as input
 - `query_optimization.ipynb`: RAG with pre-retrieval related optimization techniques such as query rewrite, query expansion and query decompositions
 - `contextual_compression.ipynb`: RAG with various techniques in contextual compression (retriever retrieves the documents, then compressor filter/reduce the documents): LLMChainExtractor, ChainFilter, Listwise Rerank, embedding filter and combining methods
-- (TBU)
+- `rerank.ipynb`: RAG + Pointwise reranking with Qwen3 reranker
+- `rag_sql_generate.ipynb`: RAG for SQL generation in handling database queries, with Chroma + Sqlite
 
 ## Q&A
 
@@ -18,7 +19,7 @@ A: Multi-retrieval allows you to combine results from different retrieval strate
 
 **Q: Why re-ranking?**
 
-A: 
+A: Re-ranking helps sort retrieved documents by relevance, improving the quality of the final context passed to the LLM.
 
 **Q: How to choose TextSplitter?**
 
@@ -41,4 +42,4 @@ A: One challenge with retrieval is that usually you don't know the specific quer
 
 **Q: Why query optimization?**
 
-A: 
+A: Improves retrieval accuracy and efficiency by rewriting, expanding, or decomposing queries.
