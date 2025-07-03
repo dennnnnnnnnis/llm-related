@@ -10,6 +10,7 @@ This is for noting down anything related to RAG. Also act as a readme for optimi
 - `contextual_compression.ipynb`: RAG with various techniques in contextual compression (retriever retrieves the documents, then compressor filter/reduce the documents): LLMChainExtractor, ChainFilter, Listwise Rerank, embedding filter and combining methods
 - `rerank.ipynb`: RAG + Pointwise reranking with Qwen3 reranker
 - `rag_sql_generate.ipynb`: RAG for SQL generation in handling database queries, with Chroma + Sqlite
+- `multimodal_retrieval.ipynb`: Multimodal retrieval using ColQwen as document retriever, then feed to a VLM
 
 ## Q&A
 
