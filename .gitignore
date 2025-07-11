@@ -1,7 +1,7 @@
 .streamlit/
 .venv/
-chroma/
 data/
 huggingface-models/
-tutorials/
 reference/
+langgraph/manus/__pycache__/
+langgraph/workspace/
