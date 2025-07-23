@@ -5,9 +5,13 @@
             "args": ["weather_server.py"],
             "transport": "stdio"
         },
-        "write": {
-            "command": "python",
-            "args": ["write_server.py"],
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "/Users/wangzeyu/Desktop/Github projects/llm-related/mcp-server"
+            ],
             "transport": "stdio"
         }
     }

@@ -9,6 +9,8 @@ OUTPUT_DIR = "./output"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+# If want to use the tool for llm, add the configuration for this 
+# tool in servers_config.json, then modify the prompt accordingly in prompts.py
 @mcp.tool()
 async def write_file(content: str) -> str:
     """
