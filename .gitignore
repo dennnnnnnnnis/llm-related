@@ -5,3 +5,9 @@ huggingface-models/
 reference/
 langgraph/manus/__pycache__/
 langgraph/workspace/
+
+mcp-server/.env
+mcp-server/uv.lock
+mcp-server/.python-version
+mcp-server/__pycache__
+mcp-server/output
